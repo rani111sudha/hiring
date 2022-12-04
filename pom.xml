@@ -16,6 +16,13 @@
     </dependency>
   </dependencies>
   <build>
+    <plugins>
+      <plugin>
+        <groupID>org.apache.maven.plugin</groupID>
+        <artifactID>maven-war-plugin/artifactID>
+          <version>3.3.1</version>
+          <plugin>
+            <plugin>
     <finalName>hiring</finalName>
   </build>
 </project>
